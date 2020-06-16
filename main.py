@@ -39,6 +39,6 @@ def gen_points(func, folder, g=0):
     f.close()
     return points_x, points
 
-plot_from_file('coords.txt')
-# plot(functions=[rounded_object, flat_object, cubic, sin], names=["round","flat", "cubic", "sin"], width=2, height=2)
+# plot_from_file('coords.txt')
+plot(functions=[rounded_object, flat_object, cubic, sin], names=["round","flat", "cubic", "sin"], width=2, height=2)
 plt.show()
